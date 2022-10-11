@@ -175,13 +175,13 @@ header {
     margin-top: 8px;
 }
 
-.backdrop.is-hidden{
+.backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
 }
 
-.modal-svg:hover{
-fill: #2196F3;
+.modal-svg:hover {
+    fill: #2196F3;
 }
 
 .input-modal-two {
@@ -412,12 +412,11 @@ fill: #2196F3;
 }
 
 .team-svg {
-
     fill: #AFB1B8;
     display: flex;
 }
 
-.team-svg:hover{
+.team-svg:hover {
     fill: #2196F3;
 }
 
@@ -425,10 +424,8 @@ fill: #2196F3;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-
     text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
     font-weight: 500;
     font-size: 16px;
@@ -522,14 +519,17 @@ fill: #2196F3;
 
 
 .clients-svg {
+
+    border: 1px solid #AFB1B8;
     fill: #AFB1B8;
     margin-right: 30px;
-
 }
 
-.clients-svg:hover{
-fill: #2196F3;
+.clients-svg:hover {
+    border: 1px solid #2196F3;
+    fill: #2196F3;
 }
+
 .clients-iteam::before {
     content: "";
     width: 170px;
