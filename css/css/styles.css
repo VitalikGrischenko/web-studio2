@@ -70,12 +70,14 @@ header .container {
 }
 
 .header-page {
+    outline: 2px solid red;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: #212121;
     justify-content: center;
     margin-right: 54px;
+    position: relative;
 }
 
 .header-link {
@@ -100,6 +102,24 @@ header .container {
     justify-content: center;
     margin-left: 93;
     margin-right: 94px;
+}
+
+.header-page::after{
+    content: "";
+    display: block;
+    width: 47px;
+    height: 4px;
+    background-color: #2196F3;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms;
+
+}
+
+.header-page::after:hover{
+    opacity: 1;
 }
 
 header {
@@ -525,7 +545,8 @@ header {
     margin-right: 30px;
 }
 
-.clients-svg:hover {
+.clients-svg:hover { 
+    
     border: 1px solid #2196F3;
     fill: #2196F3;
 }
@@ -696,7 +717,28 @@ header {
     font-size: 14px;
     line-height: 1.71;
 }
+.sign-up-text{
+width: 205.36px;
+height: 12.54px;
+color: #FFFFFF;
+}
 
+.sign-up-email{
+    margin-top: 38.55px;
+color:rgba(255, 255, 255, 0.6);
+}
+
+.sign-up-item{
+    outline: rgba(255, 255, 255, 0.3);
+    margin-top: 20.55px;
+}
+
+.sign-up-buttom{
+    width: 103.15px;
+    height: 35.67px;
+    background: #2196F3;
+    color: #FFFFFF;
+}
 
 .Foter-colorlogo {
     font-family: 'Raleway';
@@ -747,8 +789,6 @@ header {
     letter-spacing: 0.06em;
     color: #212121;
 }
-
-
 
 .work-portfolio-profession {
     font-weight: 400;
