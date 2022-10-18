@@ -209,6 +209,14 @@ header {
     width: 448px;
 }
 
+.modal-krestik{
+background-color: #FFFFFF;
+}
+
+.modal-krestik:hover{
+fill: #2196F3;
+}
+
 .modal-title {
     margin-top: 20px;
     text-align: center;
