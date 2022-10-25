@@ -104,7 +104,7 @@ header .container {
     margin-right: 94px;
 }
 
-.header-page::after{
+.header-page::after {
     content: "";
     display: block;
     width: 47px;
@@ -118,7 +118,7 @@ header .container {
 
 }
 
-.header-page::after:hover{
+.header-page::after:hover {
     opacity: 1;
 }
 
@@ -211,8 +211,8 @@ header {
     width: 370px;
 }
 
-.modal-krestik:hover{
-fill: #2196F3;
+.modal-krestik:hover {
+    fill: #2196F3;
 }
 
 .modal-title {
@@ -549,8 +549,8 @@ fill: #2196F3;
     margin-right: 30px;
 }
 
-.clients-svg:hover { 
-    
+.clients-svg:hover {
+
     border: 1px solid #2196F3;
     fill: #2196F3;
 }
@@ -671,8 +671,8 @@ fill: #2196F3;
     color: #FFFFFF;
 }
 
-.mailinglist{
-display: flex;
+.mailinglist {
+    display: flex;
 }
 
 .end {
@@ -725,24 +725,25 @@ display: flex;
     font-size: 14px;
     line-height: 1.71;
 }
-.sign-up-text{
-width: 205.36px;
-height: 12.54px;
-color: #FFFFFF;
+
+.sign-up-text {
+    width: 205.36px;
+    height: 12.54px;
+    color: #FFFFFF;
 }
 
-.sign-up-email{
+.sign-up-email {
     margin-top: 38.55px;
-color:rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 
-.sign-up-item{
+.sign-up-item {
     margin-right: 12px;
     outline: rgba(255, 255, 255, 0.3);
     margin-bottom: 20.55px;
 }
 
-.sign-up-buttom{
+.sign-up-buttom {
     width: 103.15px;
     height: 35.67px;
     background: #2196F3;
@@ -817,8 +818,6 @@ color:rgba(255, 255, 255, 0.6);
     margin-right: auto;
 }
 
-
-
 .iteam-portfolio {
     margin-right: 30px;
     margin-bottom: 30px;
@@ -844,4 +843,13 @@ color:rgba(255, 255, 255, 0.6);
     display: flex;
     flex-wrap: wrap;
 
+}
+
+.work-portfolio-hover {
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
