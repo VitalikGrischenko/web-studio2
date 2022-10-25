@@ -778,6 +778,7 @@ header {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    transition: opacity 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms
 }
 
 .hero-portfolio {
@@ -786,6 +787,7 @@ header {
 }
 
 .portfolio-button:hover {
+    
     background-color: #2196F3;
     color: #FFFFFF
 }
