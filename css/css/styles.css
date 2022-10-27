@@ -70,7 +70,6 @@ header .container {
 }
 
 .header-page {
-    outline: 2px solid red;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -95,31 +94,24 @@ header .container {
 }
 
 .header-page:hover {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     color: #2196F3;
-    justify-content: center;
-    margin-left: 93;
-    margin-right: 94px;
-}
-
-.header-page::after {
-    content: "";
-    display: block;
-    width: 47px;
-    height: 4px;
-    background-color: #2196F3;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: opacity 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms;
 
 }
 
-.header-page::after:hover {
+.header-page:hover::after{
     opacity: 1;
+}
+
+.header-page::after{
+content: "";
+display: block;
+width: 47px;
+height: 4px;
+background-color: #2196F3;
+position: absolute;
+left: 0;
+bottom: 0;
+opacity: 0;
 }
 
 header {
@@ -672,7 +664,7 @@ header {
 }
 
 .mailinglist {
-    display: flex;
+    padding-left: 200px;
 }
 
 .end {
@@ -787,7 +779,7 @@ header {
 }
 
 .portfolio-button:hover {
-    
+
     background-color: #2196F3;
     color: #FFFFFF
 }
@@ -810,6 +802,10 @@ header {
     color: #757575;
 }
 
+.pottfolio-hover{
+    position: absolute;
+}
+
 .header-container {
     display: flex;
     align-items: center;
@@ -827,10 +823,6 @@ header {
 
 .iteam-portfolio:nth-child(3n) {
     margin-right: 0;
-}
-
-.work-portfolio-sectoin {
-    padding-bottom: 94px;
 }
 
 .card-decrption {
