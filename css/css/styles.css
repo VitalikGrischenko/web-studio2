@@ -705,7 +705,9 @@ header {
     color: #2196F3;
 }
 
-
+.sing-up-svg{
+    fill: #FFFFFF;
+}
 
 .footer-adrees {
     font-weight: 400px;
@@ -803,9 +805,6 @@ header {
     color: #757575;
 }
 
-.pottfolio-hover{
-    position: absolute;
-}
 
 .header-container {
     display: flex;
