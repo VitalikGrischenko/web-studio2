@@ -98,21 +98,21 @@ header .container {
 
 }
 
-.header-page:hover::after{
+.header-page:hover::after {
     opacity: 1;
 }
 
-.header-page::after{
-content: "";
-display: block;
-width: 47px;
-height: 4px;
-background-color: #2196F3;
-position: absolute;
-left: 0;
-bottom: 0;
-opacity: 0;
-transition: 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+.header-page::after {
+    content: "";
+    display: block;
+    width: 47px;
+    height: 4px;
+    background-color: #2196F3;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 header {
@@ -705,7 +705,7 @@ header {
     color: #2196F3;
 }
 
-.sing-up-svg{
+.sing-up-svg {
     fill: #FFFFFF;
 }
 
@@ -837,6 +837,30 @@ header {
     display: flex;
     flex-wrap: wrap;
 
+}
+
+.portfolio-hover-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.portfolio-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(33, 150, 243, 0.9);
+    opacity: 0;
+}
+
+.portfolio-article:hover.portfolio-hover{
+    opacity: 1;
+}
+
+.portfolio-article{
+    overflow: hidden;
+    position: relative;
 }
 
 .work-portfolio-hover {
