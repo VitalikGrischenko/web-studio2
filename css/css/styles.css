@@ -849,12 +849,12 @@ header {
 .portfolio-hover{
     position: absolute;
     top: 0;
-    left: 0;
+
     background-color: rgba(33, 150, 243, 0.9);
     opacity: 0;
 }
 
-.portfolio-article:hover.portfolio-hover{
+.portfolio-article:hover .portfolio-hover{
     opacity: 1;
 }
 
