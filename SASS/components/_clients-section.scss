@@ -1,0 +1,128 @@
+.clients-section {
+
+    padding-top: 94px;
+}
+
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.clients {
+
+    padding-bottom: 50px;
+    padding-top: 94px;
+    display: flex;
+}
+
+
+.clients-svg {
+
+    border: 1px solid #AFB1B8;
+    fill: #AFB1B8;
+    margin-right: 30px;
+}
+
+.clients-svg:hover {
+
+    border: 1px solid #2196F3;
+    fill: #2196F3;
+}
+
+.clients-iteam::before {
+    content: "";
+    width: 170px;
+    height: 90px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E5E5E5;
+    ;
+}
+
+
+.clients-iteam:nth-child(2)::before {
+    background-image: url("../../images/logo\ 2.png")
+}
+
+.clients-iteam::before {
+    content: "";
+    width: 170px;
+    height: 90px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E5E5E5;
+    ;
+}
+
+.clients-iteam:nth-child(3)::before {
+    background-image: url("../../images/Object.png")
+}
+
+.clients-iteam::before {
+    content: "";
+    width: 170px;
+    height: 90px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E5E5E5;
+    ;
+}
+
+
+.clients-iteam:nth-child(4)::before {
+    background-image: url("../../images/logo\ 4.png")
+}
+
+.clients-iteam::before {
+    content: "";
+    width: 170px;
+    height: 90px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E5E5E5;
+    ;
+}
+
+
+.clients-iteam:nth-child(5)::before {
+    background-image: url("../../images/logo\ 5.png")
+}
+
+.clients-iteam::before {
+    content: "";
+    width: 170px;
+    height: 90px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E5E5E5;
+    ;
+}
+
+
+.clients-iteam:nth-child(6)::before {
+    background-image: url("../../images/Object-1.png")
+}
+
+.clients-iteam::before {
+    content: "";
+    width: 170px;
+    height: 90px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E5E5E5;
+    ;
+}
+
+.clients-iteam {
+    margin-right: 30px;
+}

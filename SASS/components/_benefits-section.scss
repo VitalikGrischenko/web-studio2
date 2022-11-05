@@ -1,0 +1,115 @@
+.benefits-text {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+    border-radius: nullpx;
+}
+
+.benefits-item {
+    width: 270px;
+    margin-left: 30px;
+}
+
+.benefits-item::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+}
+
+.benefits-item:nth-child(1)::before {
+    background-image: url("../../images/antenna\ 1.png");
+}
+
+.benefits-item::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+}
+
+.benefits-item::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+}
+
+.benefits-item:nth-child(3)::before {
+    background-image: url("../../images/diagram\ 1.png");
+}
+
+.benefits-item:nth-child(2)::before {
+    background-image: url("../../images/clock\ 1.png")
+}
+
+.benefits-item:nth-child(4)::before {
+    background-image: url("../../images/astronaut\ 1.png")
+}
+
+.benefits-item::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+}
+
+.benefits-item:first-child {
+    margin-left: 0;
+}
+
+.benefits-screenshot:last-child {
+    padding-left: 215px;
+    padding-right: 30px;
+}
+
+.benefits-screenshot {
+    padding-left: 30px;
+    padding-right: 215px;
+}
+
+.benefits-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits-title {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+
+    border-radius: nullpx;
+}
+
+.benefits {
+    margin-top: 94px;
+    display: flex;
+}
+
+.benefits-list {
+    display: flex;
+}

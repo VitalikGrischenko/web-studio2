@@ -1,0 +1,83 @@
+.modal {
+    height: 609px;
+    width: 450px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+.modal-iteam {
+    margin-left: 412px;
+    margin-top: 8px;
+}
+
+
+.backdrop.is-hidden {
+    background: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-svg:hover {
+    fill: #2196F3;
+}
+
+.input-modal-two {
+    height: 120px;
+    width: 370px;
+}
+
+.modal-krestik:hover {
+    fill: #2196F3;
+}
+
+.modal-title {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.modal-button {
+    margin-top: 84px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.modal-list {
+    padding-left: 40px;
+}
+
+.modal-text-two {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #757575;
+}
+
+.bacdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    ;
+}
+
+.modal-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}

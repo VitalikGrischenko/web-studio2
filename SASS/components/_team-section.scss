@@ -1,0 +1,90 @@
+.team {
+    display: flex;
+}
+
+.card-studio {
+    font-weight: 500;
+    color: #2196F3;
+}
+
+.team-svg {
+    fill: #AFB1B8;
+    display: flex;
+}
+
+.team-svg:hover {
+    fill: #2196F3;
+}
+
+.team-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.team-profession {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    justify-content: center;
+}
+
+.team-item {
+    justify-content: center;
+}
+
+.team-item:first-child {
+    margin-left: 0;
+}
+
+.team-item:first-child {
+    margin-left: 0;
+}
+
+.team-text {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    justify-content: center;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-section {
+    background: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    display: flex
+}
+
+
+.team-svg {
+    margin-right: 33.97px;
+}
