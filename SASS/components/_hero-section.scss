@@ -8,14 +8,33 @@
 }
 
 .hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.3em;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
 
 
+    @media screen and (min-width: 480px){
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 42px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    @media screen and (min-width: 768px){
+        width: 307.9px;
+        height: 65.79px;
+        left: 230.09px;
+        top: 208.75px;
+        background: #FFFFFF;
+    }
+
+    @media screen and (min-width: 1200px){
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.3em;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
 }
 
 .hero-section {
