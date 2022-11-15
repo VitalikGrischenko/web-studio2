@@ -4,12 +4,31 @@
 }
 
 .clients-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+
+
+    @media screen and (min-width: 480px){
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 33px;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
+
+    @media screen and (min-width: 768px){
+        width: 226.93px;
+        height: 21.01px;
+        left: 270.68px;
+        top: 2457.26px;
+        background: #212121;
+    }
+    @media screen and (min-width: 1200px){
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
 }
 
 .clients {
