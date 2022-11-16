@@ -1,7 +1,5 @@
 .benefits-text {
 
-
-
     @media screen and (min-width: 480px){
         font-weight: 400;
         font-size: 14px;
@@ -11,11 +9,8 @@
     }
 
     @media screen and (min-width: 768px){
-        width: 341.72px;
-        height: 61.42px;
-        left: 15.64px;
-        top: 722.5px;
-        background: #757575;
+
+ 
     }
 
     @media screen and (min-width: 1200px){
@@ -24,6 +19,40 @@
         line-height: 24px;
         letter-spacing: 0.03em;
         color: #757575;
+    }
+}
+
+.benefits-title {
+
+    @media screen and (min-width: 480px){
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121
+    }
+
+    @media screen and (min-width: 768px){
+        width: 138.62px;
+        height: 15.01px;
+        left: 15.19px;
+        top: 690.44px;
+
+    }
+
+    @media screen and (min-width: 1200px){
+        margin-top: 30px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #212121;
+    
         border-radius: nullpx;
     }
 }
@@ -89,9 +118,6 @@
     background-color: #F5F4FA;
 }
 
-.benefits-item:first-child {
-    margin-left: 0;
-}
 
 .benefits-screenshot:last-child {
     padding-left: 215px;
@@ -106,52 +132,21 @@
 .benefits-section {
     padding-top: 94px;
     padding-bottom: 94px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
-.benefits-title {
 
-
+.benefits-list {
+    
     @media screen and (min-width: 480px){
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #212121
+
     }
 
     @media screen and (min-width: 768px){
-        width: 138.62px;
-        height: 15.01px;
-        left: 15.19px;
-        top: 690.44px;
-        background: #212121;
-    }
 
+    }
     @media screen and (min-width: 1200px){
-        margin-top: 30px;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    
-        color: #212121;
-    
-        border-radius: nullpx;
+        display: flex;
     }
 }
 
-.benefits {
-    margin-top: 94px;
-    display: flex;
-}
-
-.benefits-list {
-    display: flex;
-}

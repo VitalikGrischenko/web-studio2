@@ -15,11 +15,8 @@
     }
 
     @media screen and (min-width: 768px){
-        width: 226.93px;
-        height: 21.01px;
-        left: 270.68px;
-        top: 2457.26px;
-        background: #212121;
+
+
     }
     @media screen and (min-width: 1200px){
         font-weight: 700;
@@ -41,9 +38,10 @@
 
 .clients-svg {
 
-    border: 1px solid #AFB1B8;
-    fill: #AFB1B8;
-    margin-right: 30px;
+        border: 1px solid #AFB1B8;
+        fill: #AFB1B8;
+        margin-right: 30px;
+
 }
 
 .clients-svg:hover {
@@ -61,6 +59,20 @@
     background-position: center;
     background-color: #E5E5E5;
     ;
+}
+
+.clients-list{
+    @media screen and (min-width: 480px){
+
+    }
+
+    @media screen and (min-width: 768px){
+
+    }
+
+    @media screen and (min-width: 1200px){
+
+    }
 }
 
 

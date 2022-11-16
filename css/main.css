@@ -53,10 +53,6 @@ header .container {
 
 .header-link {
   font-weight: 400;
-  width: 122px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   color: #757575;
 }
 
@@ -138,16 +134,13 @@ header {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: rgb(0, 0, 0);
   }
 }
 @media screen and (min-width: 768px) {
   .header-logo {
     font-family: "Raleway";
-    width: 133.12px;
-    height: 17.76px;
-    left: 15px;
-    top: 30.48px;
+    color: rgb(0, 0, 0);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -156,20 +149,37 @@ header {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #000305;
+    color: rgb(0, 0, 0);
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
 }
 
+@media screen and (min-width: 480px) {
+  .header-page {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 54px;
+    position: relative;
+  }
+}
 @media screen and (min-width: 768px) {
   .header-page {
-    width: 69.98px;
-    height: 13.34px;
-    left: 337.05px;
-    top: 34.5px;
-    background: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 54px;
+    position: relative;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -204,15 +214,6 @@ header {
     color: #FFFFFF;
   }
 }
-@media screen and (min-width: 768px) {
-  .hero-title {
-    width: 307.9px;
-    height: 65.79px;
-    left: 230.09px;
-    top: 208.75px;
-    background: #FFFFFF;
-  }
-}
 @media screen and (min-width: 1200px) {
   .hero-title {
     font-weight: 900;
@@ -245,20 +246,6 @@ header {
   padding: 10px 24px;
 }
 
-.hero-portfolio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.hero-portfolio {
-  padding-bottom: 50px;
-  padding-top: 94px;
-}
-
 @media screen and (min-width: 480px) {
   .benefits-text {
     font-weight: 400;
@@ -268,15 +255,6 @@ header {
     color: #757575;
   }
 }
-@media screen and (min-width: 768px) {
-  .benefits-text {
-    width: 341.72px;
-    height: 61.42px;
-    left: 15.64px;
-    top: 722.5px;
-    background: #757575;
-  }
-}
 @media screen and (min-width: 1200px) {
   .benefits-text {
     font-weight: 400;
@@ -284,6 +262,38 @@ header {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .benefits-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+  }
+}
+@media screen and (min-width: 768px) {
+  .benefits-title {
+    width: 138.62px;
+    height: 15.01px;
+    left: 15.19px;
+    top: 690.44px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefits-title {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
     border-radius: nullpx;
   }
 }
@@ -349,10 +359,6 @@ header {
   background-color: #F5F4FA;
 }
 
-.benefits-item:first-child {
-  margin-left: 0;
-}
-
 .benefits-screenshot:last-child {
   padding-left: 215px;
   padding-right: 30px;
@@ -366,62 +372,14 @@ header {
 .benefits-section {
   padding-top: 94px;
   padding-bottom: 94px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-@media screen and (min-width: 480px) {
-  .benefits-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-  }
-}
-@media screen and (min-width: 768px) {
-  .benefits-title {
-    width: 138.62px;
-    height: 15.01px;
-    left: 15.19px;
-    top: 690.44px;
-    background: #212121;
-  }
-}
 @media screen and (min-width: 1200px) {
-  .benefits-title {
-    margin-top: 30px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-    border-radius: nullpx;
+  .benefits-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-}
-
-.benefits {
-  margin-top: 94px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.benefits-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .modal {
@@ -625,15 +583,6 @@ header {
     color: #212121;
   }
 }
-@media screen and (min-width: 768px) {
-  .clients-title {
-    width: 226.93px;
-    height: 21.01px;
-    left: 270.68px;
-    top: 2457.26px;
-    background: #212121;
-  }
-}
 @media screen and (min-width: 1200px) {
   .clients-title {
     font-weight: 700;
@@ -798,10 +747,12 @@ header {
           justify-content: center;
 }
 
-.team-item {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+@media screen and (min-width: 1200px) {
+  .team-item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .team-item:first-child {
@@ -870,20 +821,48 @@ header {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.work-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  margin-bottom: 50px;
+@media screen and (min-width: 480px) {
+  .work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
 }
 
-.work-item {
-  position: relative;
-  margin-right: 30px;
+@media screen and (min-width: 480px) {
+  .work-item {
+    position: relative;
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .work-item {
+    position: relative;
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .work-item {
+    position: relative;
+    margin-right: 30px;
+  }
 }
 
 .work {
@@ -929,6 +908,20 @@ p {
   color: #212121;
   -webkit-transition: opacity 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms;
   transition: opacity 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms;
+}
+
+.hero-portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-portfolio {
+  padding-bottom: 50px;
+  padding-top: 94px;
 }
 
 .work-portfolio-text {

@@ -37,15 +37,15 @@ header .container {
 
 
 .logo-color {
-    color: #2196F3
+    color: #2196F3;
 }
 
 
 
 .header-link {
     font-weight: 400;
-    width: 122px;
-    justify-content: center;
+
+
     color: #757575;
 }
 
@@ -119,15 +119,13 @@ header {
         font-size: 24px;
         line-height: 28px;
         letter-spacing: 0.03em;
-        color: #2196F3;
+        color: rgba(0, 0, 0, 1);
     }
 
     @media screen and (min-width: 768px){
         font-family: 'Raleway';
-        width: 133.12px;
-        height: 17.76px;
-        left: 15px;
-        top: 30.48px;
+
+        color: rgba(0, 0, 0, 1);
     }
 
     @media screen and (min-width: 1200px){
@@ -135,7 +133,7 @@ header {
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-        color: #000305;
+        color: rgba(0, 0, 0, 1);
         justify-content: center;
     }
 
@@ -144,15 +142,23 @@ header {
 .header-page {
 
     @media screen and (min-width: 480px){
-
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        color: #212121;
+        justify-content: center;
+        margin-right: 54px;
+        position: relative;
     }
 
     @media screen and (min-width: 768px){
-        width: 69.98px;
-        height: 13.34px;
-        left: 337.05px;
-        top: 34.5px;
-        background: #212121;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        color: #212121;
+        justify-content: center;
+        margin-right: 54px;
+        position: relative;
     }
     @media screen and (min-width: 1200px){
         font-weight: 500;
