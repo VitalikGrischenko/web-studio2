@@ -23,33 +23,6 @@
 
 }
 
-.work-portfolio-hover {
-    overflow: hidden;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
-
-.portfolio-article{
-    overflow: hidden;
-    position: relative;
-}
-
-.portfolio-article:hover .portfolio-hover{
-    opacity: 1;
-}
-
-.portfolio-hover{
-    position: absolute;
-    top: 0;
-
-    background-color: rgba(33, 150, 243, 0.9);
-    opacity: 0;
-}
-
-
 .portfolio-hover-text {
     font-style: normal;
     font-weight: 400;
@@ -74,3 +47,28 @@
 }
 
 
+.portfolio-hover{
+    position: absolute;
+    top: 0;
+
+    background-color: rgba(33, 150, 243, 0.9);
+    opacity: 0;
+}
+
+.portfolio-article:hover .portfolio-hover{
+    opacity: 1;
+}
+
+.portfolio-article{
+    overflow: hidden;
+    position: relative;
+}
+
+.work-portfolio-hover {
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
