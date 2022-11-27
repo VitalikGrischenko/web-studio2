@@ -20,7 +20,19 @@
 }
 
 .mailinglist {
-    padding-left: 200px;
+
+
+    @media screen and (min-width: 480px){
+justify-content: center;
+    }
+
+    @media screen and (min-width: 768px){
+
+    }
+
+    @media screen and (min-width: 1200px){
+        padding-left: 200px;
+    }
 }
 
 .end {

@@ -483,8 +483,10 @@ header {
   color: #FFFFFF;
 }
 
-.mailinglist {
-  padding-left: 200px;
+@media screen and (min-width: 1200px) {
+  .mailinglist {
+    padding-left: 200px;
+  }
 }
 
 .end {
@@ -594,18 +596,34 @@ header {
   }
 }
 
-.clients {
-  padding-bottom: 50px;
-  padding-top: 94px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media screen and (min-width: 1200px) {
+  .clients {
+    padding-bottom: 50px;
+    padding-top: 94px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
-.clients-svg {
-  border: 1px solid #AFB1B8;
-  fill: #AFB1B8;
-  margin-right: 30px;
+@media screen and (min-width: 480px) {
+  .clients-svg {
+    border: 1px solid #AFB1B8;
+    fill: #AFB1B8;
+  }
+}
+@media screen and (min-width: 768px) {
+  .clients-svg {
+    border: 1px solid #AFB1B8;
+    fill: #AFB1B8;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients-svg {
+    border: 1px solid #AFB1B8;
+    fill: #AFB1B8;
+    margin-right: 30px;
+  }
 }
 
 .clients-svg:hover {
