@@ -464,10 +464,22 @@ header {
   color: #212121;
 }
 
-.end-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background: #2F303A;
+@media screen and (min-width: 480px) {
+  .end-footer {
+    background: #2F303A;
+  }
+}
+@media screen and (min-width: 768px) {
+  .end-footer {
+    background: #2F303A;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .end-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #2F303A;
+  }
 }
 
 .end-list {
@@ -820,6 +832,17 @@ header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-photo {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-photo {
+    width: 270px;
   }
 }
 

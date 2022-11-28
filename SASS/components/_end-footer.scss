@@ -1,9 +1,19 @@
 .end-footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background: #2F303A;
 
 
+    @media screen and (min-width: 480px){
+        background: #2F303A;
+            }
+        
+            @media screen and (min-width: 768px){
+                background: #2F303A;
+            }
+        
+            @media screen and (min-width: 1200px){
+                padding-top: 60px;
+                padding-bottom: 60px;
+                background: #2F303A;
+            }
 }
 
 .end-list {
