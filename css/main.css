@@ -298,9 +298,20 @@ header {
   }
 }
 
-.benefits-item {
-  width: 270px;
-  margin-left: 30px;
+@media screen and (min-width: 480px) {
+  .benefits-item {
+    width: 270px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .benefits-item {
+    width: 270px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefits-item {
+    margin-left: 30px;
+  }
 }
 
 .benefits-item::before {
@@ -374,6 +385,15 @@ header {
   padding-bottom: 94px;
 }
 
+@media screen and (min-width: 768px) {
+  .benefits-list:nth-child(2n) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 @media screen and (min-width: 1200px) {
   .benefits-list {
     display: -webkit-box;
@@ -645,6 +665,16 @@ header {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .clients:nth-child(2n) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .clients-svg:hover {
   border: 1px solid #2196F3;
   fill: #2196F3;
@@ -802,6 +832,12 @@ header {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .team-profession:nth-child(4n) {
+    width: 85.01px;
+    height: 14.86px;
+  }
+}
 @media screen and (min-width: 480px) {
   .team-profession {
     font-weight: 400;
@@ -812,6 +848,8 @@ header {
 @media screen and (min-width: 768px) {
   .team-profession {
     font-weight: 400;
+    width: 144.91px;
+    height: 15.25px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -828,6 +866,16 @@ header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team:nth-child(2n) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -907,8 +955,10 @@ header {
   }
 }
 
-.team-svg {
-  margin-right: 33.97px;
+@media screen and (min-width: 1200px) {
+  .team-svg {
+    margin-right: 33.97px;
+  }
 }
 
 .work-section {

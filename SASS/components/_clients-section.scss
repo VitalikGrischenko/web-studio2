@@ -67,6 +67,13 @@
 
 }
 
+.clients:nth-child(2n){
+    @media screen and (min-width: 768px){
+        display:flex;
+        flex-wrap: wrap
+    }
+}
+
 .clients-svg:hover {
 
     border: 1px solid #2196F3;
