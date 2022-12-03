@@ -779,6 +779,8 @@ header {
 @media screen and (min-width: 480px) {
   .team-text {
     font-weight: 500;
+    width: 130px;
+    height: 19px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -803,6 +805,8 @@ header {
 @media screen and (min-width: 480px) {
   .team-profession {
     font-weight: 400;
+    width: 130px;
+    height: 19px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -827,6 +831,12 @@ header {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .team-item {
+    width: 450px;
+    height: 460px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .team-item {
     -webkit-box-pack: center;
@@ -844,10 +854,6 @@ header {
   .team-photo {
     width: 270px;
   }
-}
-
-.team-item:first-child {
-  margin-left: 0;
 }
 
 .team-item:first-child {
