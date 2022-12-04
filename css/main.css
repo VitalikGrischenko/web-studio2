@@ -869,16 +869,6 @@ header {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .team:nth-child(2n) {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-
 @media screen and (min-width: 480px) {
   .team-item {
     width: 450px;
