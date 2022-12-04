@@ -14,6 +14,17 @@
     }
 }
 
+.team:nth-child(2n){
+    @media screen and (min-width: 768px){
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (min-width: 1200px){
+        display: flex;
+    }
+}
+
 .card-studio {
     font-weight: 500;
     color: #2196F3;
@@ -138,12 +149,14 @@ height: 15.25px;
     }
 
     @media screen and (min-width: 768px){
-width:354px ;
+        width: 354px;
+        height: 374px;
 
     }
 
     @media screen and (min-width: 1200px){
-width: 270px;
+        width: 270px;
+        height: 260px;
     }
 }
 

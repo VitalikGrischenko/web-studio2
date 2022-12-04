@@ -10,7 +10,7 @@
 
     @media screen and (min-width: 768px){
 
- 
+
     }
 
     @media screen and (min-width: 1200px){
@@ -32,7 +32,7 @@
         text-align: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #212121
+        color: #212121;
     }
 
     @media screen and (min-width: 768px){
@@ -130,35 +130,30 @@
     background-color: #F5F4FA;
 }
 
-
-.benefits-screenshot:last-child {
-    padding-left: 215px;
-    padding-right: 30px;
-}
-
-.benefits-screenshot {
-    padding-left: 30px;
-    padding-right: 215px;
-}
-
 .benefits-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
 
-}
-
-.benefits-list:nth-child(2n){
     @media screen and (min-width: 480px){
 
     }
+
+    @media screen and (min-width: 768px){
+
+    }
+
+    @media screen and (min-width: 1200px){
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
+
+.benefits-list:nth-child(2n){
+
     @media screen and (min-width: 768px){
         display:flex;
         flex-wrap: wrap
     }
 
-    @media screen and (min-width: 1200px){
 
-    }
 }
 
 .benefits-list {
@@ -168,10 +163,9 @@
     }
 
     @media screen and (min-width: 768px){
-
+margin-left: 15px;
     }
     @media screen and (min-width: 1200px){
         display: flex;
     }
 }
-

@@ -21,11 +21,21 @@ header {
           align-items: center;
 }
 
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
+@media screen and (min-width: 768px) {
+  .container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 header .container {
@@ -227,8 +237,8 @@ header {
 
 .hero-section {
   text-align: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/hero.jpg");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/hero-1.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero-1.jpg");
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -370,19 +380,11 @@ header {
   background-color: #F5F4FA;
 }
 
-.benefits-screenshot:last-child {
-  padding-left: 215px;
-  padding-right: 30px;
-}
-
-.benefits-screenshot {
-  padding-left: 30px;
-  padding-right: 215px;
-}
-
-.benefits-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media screen and (min-width: 1200px) {
+  .benefits-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -392,6 +394,12 @@ header {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .benefits-list {
+    margin-left: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -492,6 +500,7 @@ header {
 @media screen and (min-width: 768px) {
   .end-footer {
     background: #2F303A;
+    text-align: center;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -499,6 +508,31 @@ header {
     padding-top: 60px;
     padding-bottom: 60px;
     background: #2F303A;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .footer-svg {
+    fill: #AFB1B8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-svg {
+    fill: #AFB1B8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-svg {
+    fill: #AFB1B8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -515,11 +549,21 @@ header {
   color: #FFFFFF;
 }
 
+@media screen and (min-width: 768px) {
+  .informaition {
+    padding-right: 473.33px;
+  }
+}
 @media screen and (min-width: 480px) {
   .mailinglist {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mailinglist {
+    text-align: center;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -581,10 +625,28 @@ header {
   line-height: 1.71;
 }
 
-.sign-up-text {
-  width: 205.36px;
-  height: 12.54px;
-  color: #FFFFFF;
+@media screen and (min-width: 480px) {
+  .sign-up-text {
+    width: 207px;
+    height: 16px;
+    color: #FFFFFF;
+  }
+}
+@media screen and (min-width: 768px) {
+  .sign-up-text {
+    margin-left: 289.18px;
+    margin-right: 273.46px;
+    width: 205.36px;
+    height: 12.54px;
+    color: #FFFFFF;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .sign-up-text {
+    width: 205.36px;
+    height: 12.54px;
+    color: #FFFFFF;
+  }
 }
 
 .sign-up-email {
