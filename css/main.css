@@ -832,6 +832,10 @@ header {
   }
 }
 
+.team-item:first-child {
+  margin-left: 0;
+}
+
 @media screen and (min-width: 768px) {
   .team-profession:nth-child(4n) {
     width: 85.01px;
