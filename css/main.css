@@ -834,6 +834,23 @@ header {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .team:nth-child(2n) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team:nth-child(2n) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .card-studio {
   font-weight: 500;
   color: #2196F3;
@@ -946,11 +963,13 @@ header {
 @media screen and (min-width: 768px) {
   .team-photo {
     width: 354px;
+    height: 374px;
   }
 }
 @media screen and (min-width: 1200px) {
   .team-photo {
     width: 270px;
+    height: 260px;
   }
 }
 
