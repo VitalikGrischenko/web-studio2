@@ -388,7 +388,7 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-  .benefits-list:nth-child(2n) {
+  .benefits-item:nth-child(2n) {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
