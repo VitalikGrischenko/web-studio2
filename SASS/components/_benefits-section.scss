@@ -1,6 +1,8 @@
 .benefits-text {
 
     @media screen and (min-width: 480px){
+        width: 450px;
+height: 50px;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
@@ -25,6 +27,8 @@
 .benefits-title {
 
     @media screen and (min-width: 480px){
+        width: 270px;
+height: 16px;
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
@@ -38,8 +42,7 @@
     @media screen and (min-width: 768px){
         width: 138.62px;
         height: 15.01px;
-        left: 15.19px;
-        top: 690.44px;
+
 
     }
 
@@ -63,7 +66,7 @@
     }
 
     @media screen and (min-width: 768px){
-        width: 270px;
+        width: 354px;
         
     }
 
@@ -74,38 +77,43 @@
 
 }
 
-.benefits-item::before {
-    content: "";
-    width: 270px;
-    height: 120px;
-    display: block;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #F5F4FA;
-}
 
 .benefits-item:nth-child(1)::before {
     background-image: url("../../images/antenna\ 1.png");
 }
 
-.benefits-item::before {
-    content: "";
-    width: 270px;
-    height: 120px;
-    display: block;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #F5F4FA;
-}
 
 .benefits-item::before {
-    content: "";
-    width: 270px;
-    height: 120px;
-    display: block;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #F5F4FA;
+    @media screen and (min-width: 480px){
+        content: "";
+        width: 450px;
+        height: 120px;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #F5F4FA;
+    }
+
+    @media screen and (min-width: 768px){
+        content: "";
+        width: 354px;
+        height: 120px;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #F5F4FA;
+    }
+
+    @media screen and (min-width: 1200px){
+        content: "";
+        width: 270px;
+        height: 120px;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #F5F4FA;
+    }
+
 }
 
 .benefits-item:nth-child(3)::before {
@@ -120,15 +128,6 @@
     background-image: url("../../images/astronaut\ 1.png")
 }
 
-.benefits-item::before {
-    content: "";
-    width: 270px;
-    height: 120px;
-    display: block;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #F5F4FA;
-}
 
 .benefits-section {
 
@@ -146,16 +145,6 @@
     }
 }
 
-.benefits-list:nth-child(2n){
-
-    @media screen and (min-width: 768px){
-        display:flex;
-        flex-wrap: wrap
-    }
-
-
-}
-
 .benefits-list {
     
     @media screen and (min-width: 480px){
@@ -164,6 +153,9 @@
 
     @media screen and (min-width: 768px){
 margin-left: 15px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
     }
     @media screen and (min-width: 1200px){
         display: flex;

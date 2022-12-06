@@ -258,6 +258,8 @@ header {
 
 @media screen and (min-width: 480px) {
   .benefits-text {
+    width: 450px;
+    height: 50px;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -277,6 +279,8 @@ header {
 
 @media screen and (min-width: 480px) {
   .benefits-title {
+    width: 270px;
+    height: 16px;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -291,8 +295,6 @@ header {
   .benefits-title {
     width: 138.62px;
     height: 15.01px;
-    left: 15.19px;
-    top: 690.44px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -315,7 +317,7 @@ header {
 }
 @media screen and (min-width: 768px) {
   .benefits-item {
-    width: 270px;
+    width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -324,38 +326,42 @@ header {
   }
 }
 
-.benefits-item::before {
-  content: "";
-  width: 270px;
-  height: 120px;
-  display: block;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #F5F4FA;
-}
-
 .benefits-item:nth-child(1)::before {
   background-image: url("../../images/antenna 1.png");
 }
 
-.benefits-item::before {
-  content: "";
-  width: 270px;
-  height: 120px;
-  display: block;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #F5F4FA;
+@media screen and (min-width: 480px) {
+  .benefits-item::before {
+    content: "";
+    width: 450px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+  }
 }
-
-.benefits-item::before {
-  content: "";
-  width: 270px;
-  height: 120px;
-  display: block;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #F5F4FA;
+@media screen and (min-width: 768px) {
+  .benefits-item::before {
+    content: "";
+    width: 354px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefits-item::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+  }
 }
 
 .benefits-item:nth-child(3)::before {
@@ -370,16 +376,6 @@ header {
   background-image: url("../../images/astronaut 1.png");
 }
 
-.benefits-item::before {
-  content: "";
-  width: 270px;
-  height: 120px;
-  display: block;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #F5F4FA;
-}
-
 @media screen and (min-width: 1200px) {
   .benefits-section {
     padding-top: 94px;
@@ -388,18 +384,17 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-  .benefits-list:nth-child(2n) {
+  .benefits-list {
+    margin-left: 15px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .benefits-list {
-    margin-left: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -536,6 +531,26 @@ header {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .end-text {
+    margin-left: 485px;
+    margin-right: 101px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .end-spisicok {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .end-spisicok {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 473px;
+    padding-right: 101px;
+  }
+}
 .end-list {
   margin-top: 9px;
   margin-bottom: 9px;
@@ -549,6 +564,16 @@ header {
   color: #FFFFFF;
 }
 
+@media screen and (min-width: 480px) {
+  .socialnetworks {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 480px) {
+  .informaition {
+    text-align: center;
+  }
+}
 @media screen and (min-width: 768px) {
   .informaition {
     padding-right: 473.33px;
@@ -556,9 +581,7 @@ header {
 }
 @media screen and (min-width: 480px) {
   .mailinglist {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    text-align: center;
   }
 }
 @media screen and (min-width: 768px) {
@@ -826,29 +849,19 @@ header {
   margin-right: 30px;
 }
 
-@media screen and (min-width: 1200px) {
-  .team {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .team:nth-child(2n) {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .team:nth-child(2n) {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
+.team {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .card-studio {
@@ -875,9 +888,6 @@ header {
 @media screen and (min-width: 1200px) {
   .team-svg {
     fill: #AFB1B8;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
 }
 
@@ -889,7 +899,6 @@ header {
   .team-text {
     font-weight: 500;
     width: 130px;
-    height: 19px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -918,21 +927,18 @@ header {
 @media screen and (min-width: 768px) {
   .team-profession:nth-child(4n) {
     width: 85.01px;
-    height: 14.86px;
   }
 }
 @media screen and (min-width: 480px) {
   .team-profession {
     font-weight: 400;
     width: 130px;
-    height: 19px;
   }
 }
 @media screen and (min-width: 768px) {
   .team-profession {
     font-weight: 400;
     width: 144.91px;
-    height: 15.25px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -952,32 +958,19 @@ header {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .team-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+@media screen and (min-width: 480px) {
+  .team-photo {
+    width: 450px;
   }
 }
-
-@media screen and (min-width: 1200px) {
-  .team-item {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .team-photo {
     width: 354px;
-    height: 374px;
   }
 }
 @media screen and (min-width: 1200px) {
   .team-photo {
     width: 270px;
-    height: 260px;
   }
 }
 
@@ -1026,15 +1019,6 @@ header {
     background: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .team-svg {
-    margin-right: 33.97px;
   }
 }
 

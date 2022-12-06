@@ -35,6 +35,38 @@
 
 }
 
+.end-text{
+    @media screen and (min-width: 480px){
+
+    }
+
+    @media screen and (min-width: 768px){
+margin-left: 485px;
+margin-right: 101px;
+    }
+
+    @media screen and (min-width: 1200px){
+
+    }
+}
+
+.end-spisicok{
+    @media screen and (min-width: 480px){
+text-align: center;
+    }
+
+    @media screen and (min-width: 768px){
+        display: flex;
+        padding-left: 473px;
+        padding-right: 101px;
+    }
+
+    @media screen and (min-width: 1200px){
+
+    }
+
+}
+
 .end-list {
     margin-top: 9px;
     margin-bottom: 9px;
@@ -48,12 +80,27 @@
     color: #FFFFFF;
 }
 
-.informaition{
+.socialnetworks{
     @media screen and (min-width: 480px){
-
+text-align: center;
     }
 
     @media screen and (min-width: 768px){
+
+    }
+
+    @media screen and (min-width: 1200px){
+
+    }
+}
+
+.informaition{
+    @media screen and (min-width: 480px){
+text-align: center;
+    }
+
+    @media screen and (min-width: 768px){
+        
 padding-right: 473.33px;
     }
 
@@ -66,7 +113,7 @@ padding-right: 473.33px;
 
 
     @media screen and (min-width: 480px){
-justify-content: center;
+text-align: center;
     }
 
     @media screen and (min-width: 768px){

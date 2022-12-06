@@ -1,29 +1,17 @@
 .team {
+
     
+    justify-content: center;
 
-    @media screen and (min-width: 480px){
-
-    }
-
-    @media screen and (min-width: 768px){
-
-    }
-
-    @media screen and (min-width: 1200px){
         display: flex;
-    }
-}
-
-.team:nth-child(2n){
-    @media screen and (min-width: 768px){
-        display:flex;
+        flex-direction: row;
         flex-wrap: wrap;
-    }
 
-    @media screen and (min-width: 1200px){
-        display: flex;
-    }
 }
+
+
+
+
 
 .card-studio {
     font-weight: 500;
@@ -46,7 +34,7 @@
 
     @media screen and (min-width: 1200px){
         fill: #AFB1B8;
-        display: flex;
+
     }
 }
 
@@ -60,7 +48,7 @@
     @media screen and (min-width: 480px){
         font-weight: 500;
         width: 130px;
-height: 19px;
+
     }
 
     @media screen and (min-width: 768px){
@@ -90,7 +78,7 @@ height: 19px;
 
     @media screen and (min-width: 768px){
         width: 85.01px;
-        height: 14.86px;
+ ;
     }
 
     @media screen and (min-width: 1200px){
@@ -104,13 +92,13 @@ height: 19px;
     @media screen and (min-width: 480px){
         font-weight: 400;
         width: 130px;
-height: 19px;
+
     }
 
     @media screen and (min-width: 768px){
         font-weight: 400;
         width: 144.91px;
-height: 15.25px;
+
     }
 
     @media screen and (min-width: 1200px){
@@ -127,56 +115,27 @@ height: 15.25px;
 }
 }
 
-.team-section{
-    @media screen and (min-width: 480px){
-
-    }
-
-    @media screen and (min-width: 768px){
-
-    }
-
-    @media screen and (min-width: 1200px){
-display: flex;
-    }
-}
-
-.team-item {
-
-    @media screen and (min-width: 480px){
-
-    }
-
-    @media screen and (min-width: 768px){
-
-    }
-
-    @media screen and (min-width: 1200px){
-        justify-content: center;
-    }
-}
-
 .team-photo{
     @media screen and (min-width: 480px){
+        width: 450px;
 
     }
 
     @media screen and (min-width: 768px){
         width: 354px;
-        height: 374px;
+
 
     }
 
     @media screen and (min-width: 1200px){
         width: 270px;
-        height: 260px;
+
     }
 }
 
 .team-item:first-child {
     margin-left: 0;
 }
-
 
 .team-title {
 
@@ -220,22 +179,6 @@ display: flex;
         background: #F5F4FA;
         padding-top: 94px;
         padding-bottom: 94px;
-        display: flex
-    }
-}
-
-
-.team-svg {
-    @media screen and (min-width: 480px){
 
     }
-
-    @media screen and (min-width: 768px){
-       
-    }
-
-    @media screen and (min-width: 1200px){
-        margin-right: 33.97px;
-    }
-    
 }
