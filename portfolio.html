@@ -20,14 +20,30 @@
   <header>
     <div class="container">
       <a class="header-logo" href="/web.html"><span class="logo-color">Web</span>Studio</a>
-      <ul class="page">
-        <li><a class="header-page" href="/">Студія</a></li>
-        <li><a class="header-page" href="/portfolio.html">Портфоліо</a></li>
-        <li><a class="header-page" href="/contacts.html">Контакти</a></li>
-      </ul>
       <ul class="adress">
-        <li><a href="mailto:info@devstudio.com" class="header-link">info@devstudio.com</a></li>
-        <li><a href="tel:+380991111111" class="header-link">+380961111111</a></li>
+        <li class="adress-item">
+
+          <a href="mailto:info@devstudio.com" class="header-link">
+            <svg width="16px" height="12px" class="modal-svg">
+              <use href="./images/го.svg#icon-envelope1">
+              </use>
+            </svg>
+            <span>
+              info@devstudio.com
+            </span>
+          </a>
+        </li>
+        <li class="adress-item">
+          </svg><a href="tel:+380991111111" class="header-link">
+            <svg width="10px" height="16px" class="modal-svg">
+              <use href="./images/го.svg#icon-uniE900">
+              </use>
+            </svg>
+            <span>
+              +380961111111
+            </span>
+          </a>
+        </li>
       </ul>
     </div>
   </header>
@@ -49,18 +65,18 @@
           <div class="portfolio-photo-hover">
           <ul class="work-portfolio">
             <li class="iteam-portfolio">
-              <img src="./images portfolio/img-1.png" alt="ноутбук" width="370px" height="294px" class="portfolio-photo"/>
+              <div class="portfolio-hover">
+                <img src="./images portfolio/img-1.png" alt="ноутбук" width="370px" height="294px" class="portfolio-photo"/>
+                <p class="portfolio-hover-text">
+                  Технокрик це сучасний майданчик поширення коронавірусу. 
+                  Компанії використовують цю платформу для цифрового шпигунства та атак на захищені сервери конкурентів.
+                </p>
+              </div>
+              
               <p class="work-portfolio-text">Технокряк</p>
               <p class="work-portfolio-profession">Веб-сайт</p>
             </li>
-            <div class="portfolio-hover">
-              <div class="portfolio-help">
-              <p class="portfolio-hover-text">
-                Технокрик це сучасний майданчик поширення коронавірусу. 
-                Компанії використовують цю платформу для цифрового шпигунства та атак на захищені сервери конкурентів.
-              </p>
-            </div>
-            </div>
+
             <li class="iteam-portfolio">
               <img src="./images portfolio/img-2.png" alt="баскутбол" width="370px" height="294px"/>
               <p class="work-portfolio-text">Постер New Orlean vs Golden Star</p>

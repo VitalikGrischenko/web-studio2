@@ -37,17 +37,33 @@
 
 .end-text{
     @media screen and (min-width: 480px){
-
+        color: #FFFFFF;
     }
 
     @media screen and (min-width: 768px){
 margin-left: 485px;
 margin-right: 101px;
+color: #FFFFFF;
     }
 
     @media screen and (min-width: 1200px){
+        color: #FFFFFF;
+    }
+}
+
+.Footer-svg{
+
+    @media screen and (min-width: 480px){
+        fill: #FFFFFF;
+        margin-top: 20px;
 
     }
+        @media screen and (min-width: 768px){
+            fill: #FFFFFF;
+        }
+            @media screen and (min-width: 1200px){
+                fill: #FFFFFF;
+             }
 }
 
 .end-spisicok{

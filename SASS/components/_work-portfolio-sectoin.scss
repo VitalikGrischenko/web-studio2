@@ -17,6 +17,7 @@
 }
 
 .work-portfolio {
+    gap: 30px;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -32,8 +33,8 @@
 
 
 .iteam-portfolio {
-    margin-right: 30px;
-    margin-bottom: 30px;
+width: 370px;
+position: relative;
 }
 
 .iteam-portfolio:nth-child(3n) {
@@ -46,16 +47,21 @@
     border: 1px solid #EEEEEE;
 }
 
-
 .portfolio-hover{
+    position: relative;
+}
+
+.portfolio-hover-text{
     position: absolute;
     top: 0;
-
+left: 0;
+width: 100%;
+height: 100%;
     background-color: rgba(33, 150, 243, 0.9);
     opacity: 0;
 }
 
-.portfolio-article:hover .portfolio-hover{
+.portfolio-article:hover .portfolio-hover-text{
     opacity: 1;
 }
 
